@@ -1,0 +1,20 @@
+# Cache and logs are local-only build artifacts
+# (rebuild with: py -3.12 scripts/build.py)
+cache/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.pem
